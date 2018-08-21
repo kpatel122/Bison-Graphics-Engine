@@ -1,0 +1,10 @@
+func main{ 
+
+PUSH "C:\Program Files\Quake III Arena\baseq3\pak0.pk3"
+CALLHOST BspLoadMap
+PUSH "models\\Ogro\\tris.md2"
+CALLHOST LoadModel
+PUSH "C:\\Music\\metallica san.mp3"
+CALLHOST SetMusic
+
+}
